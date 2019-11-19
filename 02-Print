@@ -10,3 +10,6 @@ echo -e "1.\tAnoop\t\tDevOps\n2.\tNithish\t\tSAP"
 
 ## Printing with colors
 echo -e "\e[31mRed color foreground"
+
+## This is for updated color Printing
+echo -e "\e[31;44This is red color or blue back"
