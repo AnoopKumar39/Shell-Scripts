@@ -1,5 +1,11 @@
 #!/bin/bash
 ## This is for using variables
-Stenght=43
+Stength=43
 Class=DevOps
-echo "Welcome to $class training and our Stenght is $Stenght"
+echo "Welcome to $Class training and our Stength is $Stength"
+echo "Welcome to ${Class} training and our Strength is ${Stength}"
+
+echo "Welcome to $class training"
+
+
+
