@@ -5,7 +5,8 @@ Class=DevOps
 echo "Welcome to $Class training and our Stength is $Stength"
 echo "Welcome to ${Class} training and our Strength is ${Stength}"
 
+## This is to convert local variable to environment variable
 echo "Welcome to $class training"
 
-
+## 
 
