@@ -1,3 +1,4 @@
 #!/bin/bash
 ## This is a ls command script
-ls -lFA
+ls -lF
+
