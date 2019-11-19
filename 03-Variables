@@ -1,0 +1,5 @@
+#!/bin/bash
+## This is for using variables
+Stenght=43
+Class=DevOps
+echo "Welcome to $class training and our Stenght is $Stenght"
