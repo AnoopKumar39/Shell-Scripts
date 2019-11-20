@@ -19,6 +19,7 @@ echo Number of Arguments = $#
 
 echo "Hello $1 , Welcome to $2 Training , Your Password is $3"
 
-echo $&
+## Search for below special variable output
+##echo $&
 
 
