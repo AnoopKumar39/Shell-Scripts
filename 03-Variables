@@ -11,4 +11,9 @@ echo "Welcome to $class training"
 ## Run time variable declaration
 echo "Today date is 20-11-2019"
 
+## Commnad substitution
+echo "Today's date is $(date +%F)"
+
+## Arithmatic substitution
+echo "The result of the expression is"
 
