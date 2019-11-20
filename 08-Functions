@@ -67,6 +67,7 @@ sample_ow() {
 sample_or() {
     name=Navya
 }
-sample_ow
+
 sample_or
+sample_ow
 echo $name
