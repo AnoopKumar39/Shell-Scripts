@@ -1,0 +1,21 @@
+#!/bin/bash 
+
+### Special variables are $0. $1, $2 .... $n, $*, $@. $# , $$ $?
+
+## What is $0 , $0 is nothing but the script name.. Inside script if you want to know the script name you are using then $0 can help
+
+echo Script Name = $0 
+
+## What is $1 , First argument to the script is $1
+echo First Argument to script is $1 
+
+## What is $* & $&, All arguments parsed to the script 
+
+echo All arguments = $* 
+echo All arguments = $@ 
+
+## What is $# , Number of arguments parsed to script 
+echo Number of Arguments = $#
+
+echo "Hello $1 , Welcome to $2 Training , Your Password is $3"
+
