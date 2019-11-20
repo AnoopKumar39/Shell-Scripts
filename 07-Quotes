@@ -1,5 +1,21 @@
-#!/bin/bash
+#!/bin/bash 
 
-echo *
-ls -ld /opt /opt1 *>/dev/null
-echo 'exit status of ls command =$?'
+echo * 
+
+### Usually keyboard characters other than a-z, 0-9 , _ these characters we have more characters like * () and so on are called as special characters . 
+
+## THose special characters are having a special purpose in the system like $ to access a variable 
+
+## Some times this speciual characters need to be avoided and the inputs should be given avoiding their speciality 
+
+# TO do that we have quotes 
+## 1. Single Quotes 
+#        No Special Characters are treated as special in single quotes 
+## 2. Double Quotes 
+#        Only $ , ` are treated a special characters and rest other are normal.
+
+ls -ld /opt /opt1 &>/dev/null 
+echo 'Exit Status of ls command = $?'
+
+ls -ld /opt /opt1 &>/dev/null 
+echo "Exit Status of ls command = $?"
