@@ -59,3 +59,11 @@ sample_local() {
 
 sample_local
 echo "Value of a2 in main program = $a2 "
+
+
+sample_ow() {
+    name=Anoop
+}
+sample_ow
+name=Navya
+echo $name
