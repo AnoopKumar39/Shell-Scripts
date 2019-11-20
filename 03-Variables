@@ -8,5 +8,7 @@ echo "Welcome to ${Class} training and our Strength is ${Stength}"
 ## This is to convert local variable to environment variable
 echo "Welcome to $class training"
 
-## 
+## Run time variable declaration
+echo "Today date is 20-11-2019"
+
 
