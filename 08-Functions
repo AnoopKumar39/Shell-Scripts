@@ -64,6 +64,9 @@ echo "Value of a2 in main program = $a2 "
 sample_ow() {
     name=Anoop
 }
+sample_or() {
+    name=Navya
+}
 sample_ow
-name=Navya
+sample_or
 echo $name
