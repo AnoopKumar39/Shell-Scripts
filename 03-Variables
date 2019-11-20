@@ -16,6 +16,6 @@ Date=$(date +%F)
 echo "Today's date is $Date"
 
 ## Arithmatic substitution
-Reult=((2+3*15/3-4)-2)
+Reult=$((2+3*15/3-4)-2)
 echo "The result of the expression is $Result"
 
