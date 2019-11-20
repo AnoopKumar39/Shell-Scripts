@@ -19,3 +19,13 @@ echo 'Exit Status of ls command = $?'
 
 ls -ld /opt /opt1 &>/dev/null 
 echo "Exit Status of ls command = $?"
+
+echo "*"
+
+# With out quotes also we can escape special character by using \ 
+echo \*
+
+echo -e Hello\\nWorld
+
+## Even in double quotes sometimes you need to skip the speciality of chaaracters 
+echo  "Cost of apple is \$100"
