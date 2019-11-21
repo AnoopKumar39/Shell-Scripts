@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+for i in httpd java wget curl ; do 
+    echo "Installing $i package"
+    # yum install $i -y 
+    sleep 1
+done
