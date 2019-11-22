@@ -13,6 +13,7 @@ echo -e "\e[31mRed color foreground\e[0m"
 
 ## This is for updated color Printing
 echo -e "\e[31;42mThis is red color or green back\e[0m"
+###
 
 
 
