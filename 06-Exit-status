@@ -1,4 +1,3 @@
 #!/bin/bash
 ## This is for simple exit status script
 exit 5
-##
