@@ -36,5 +36,4 @@ if [ $? -eq 0 ]; then
 else 
     echo Failure 
     exit 2 
-fi 
-###
+fi
