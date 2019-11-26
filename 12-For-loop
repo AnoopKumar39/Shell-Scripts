@@ -5,4 +5,3 @@ for i in httpd java wget curl ; do
     # yum install $i -y 
     sleep 1
 done
-##
