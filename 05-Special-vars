@@ -21,4 +21,4 @@ echo "Hello $1 , Welcome to $2 Training , Your Password is $3"
 
 ## Search for below special variable output
 ##echo $&
-##
+

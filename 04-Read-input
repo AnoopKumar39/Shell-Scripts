@@ -7,4 +7,3 @@ read -p 'Enter your course: ' course
 read -s -p 'Enter your password: ' pass
 
 echo -e "\nHello $name, Welcome to $course class and your password is $pass"
-##
