@@ -6,4 +6,5 @@ echo Hello World
 echo Hello World 2
 echo Hello World 3
 
-
+## Print multiple lines with single echo command
+echo -e Hello World 4\n Hello World 5
