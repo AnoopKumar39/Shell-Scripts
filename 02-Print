@@ -16,4 +16,6 @@ echo -e 'Hello World 6\nHello World 7'
 echo -e "1.\tAnoop\t\tDevOps\n2.\tRaj\t\tDevOps with AWS"
 
 ## This is to print with colors
-echo -e "\e[31mHello World"
+echo -e "\e[31mHello World with red foreground"
+
+echo -e "\e[32mHello World with green foreground"
