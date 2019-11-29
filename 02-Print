@@ -15,4 +15,3 @@ echo -e "\e[31mRed color foreground\e[0m"
 echo -e "\e[31;42mThis is red color or green back\e[0m"
 
 
-
