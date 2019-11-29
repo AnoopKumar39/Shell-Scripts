@@ -21,3 +21,6 @@ echo -e "\e[31mHello World with red foreground"
 echo -e "\e[32mHello World with green foreground"
 
 echo -e "Hello World with white foreground"
+## Above command didn't work properly because we didn't disable the color
+echo -e "Hello World\e[0m"
+echo -e "Hello World"
