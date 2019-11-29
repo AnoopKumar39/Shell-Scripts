@@ -2,7 +2,7 @@
 ## This is to print something with echo
 echo Hello World
 
-##print multiple lines
+## Print multiple lines
 echo Hello World 2
 echo Hello World 3
 
