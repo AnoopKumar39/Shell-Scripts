@@ -8,5 +8,12 @@ echo Hello World 3
 
 ## Print multiple lines with single echo command
 echo -e "Hello World 4\nHello World 5"
+
+## This is using single quote
 echo -e 'Hello World 6\nHello World 7'
 
+## This is to print tab spaces
+echo -e "1.\tAnoop\t\tDevOps\n2.\tRaj\t\tDevOps with AWS"
+
+## This is to print with colors
+echo -e "\e[31mHello World"
