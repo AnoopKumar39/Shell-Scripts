@@ -19,3 +19,5 @@ echo -e "1.\tAnoop\t\tDevOps\n2.\tRaj\t\tDevOps with AWS"
 echo -e "\e[31mHello World with red foreground"
 
 echo -e "\e[32mHello World with green foreground"
+
+echo -e "Hello World with white foreground"
