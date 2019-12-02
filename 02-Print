@@ -18,7 +18,7 @@ echo -e "\e[31mHello World with red color foreground\e[0m"
 echo -e "Hello World with default foregroud"
 
 ## Print with colors with background also
-echo -e "\e[42;31This is for red on green"
+echo -e "\e[42;31mThis is for red on green"
 
 
 
