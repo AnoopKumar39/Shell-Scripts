@@ -3,25 +3,12 @@
 echo Hello World
 
 ## Print multiple lines
-echo Hello World 2
-echo Hello World 3
+echo Hello World line 1
+echo Hello World line 2
 
-## Print multiple lines with single echo command
-echo -e "Hello World 4\nHello World 5"
+## Print with single echo command
+echo -e "Hello World line1\nHello World line2"
 
-## This is using single quote
-echo -e 'Hello World 6\nHello World 7'
+## Print tab spaces
+echo -e "\tSerial No\tCandidate Name\tCourse Name\n\t1.\tAnoop\tDevops\n\t2.\tKumar\tAWS"
 
-## This is to print tab spaces
-echo -e "1.\tAnoop\t\tDevOps\n2.\tRaj\t\tDevOps with AWS"
-
-## This is to print with colors
-echo -e "\e[31mHello World with red foreground"
-
-echo -e "\e[32mHello World with green foreground"
-
-echo -e "Hello World with white foreground"
-## Above command didn't work properly because we didn't disable the color
-echo -e "Hello World\e[0m"
-echo -e "Hello World"
-#
