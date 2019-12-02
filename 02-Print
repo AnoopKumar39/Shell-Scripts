@@ -10,5 +10,7 @@ echo Hello World line 2
 echo -e "Hello World line1\nHello World line2"
 
 ## Print tab spaces
-echo -e "\tSerial No\tCandidate Name\tCourse Name\n\t1.\tAnoop\tDevops\n\t2.\tKumar\tAWS"
+echo -e "Serial No\t\tCandidate Name\tCourse Name\n1.\t\tAnoop\tDevops\n2.\t\tKumar\tAWS"
+
+
 
