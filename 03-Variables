@@ -3,7 +3,7 @@
 ## This is forgenral type of variables
 name=Anoop
 course=Devops
-duration=2 months
+duration="2 months"
 
 echo "Hello $name, Welcome to $course class and the duration of this course is $duration"
 
