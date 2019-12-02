@@ -10,10 +10,10 @@ echo Hello World line 2
 echo -e "Hello World line1\nHello World line2"
 
 ## Print tab spaces
-echo -e "Serial No\tCandidate Name\tCourse Name\n1.\t\tAnoop\tDevops\n2.\t\tKumar\tAWS"
+echo -e "Serial No\tCandidate Name\t\tCourse Name\n1.\t\tAnoop\t\t\tDevops\n2.\t\tKumar\t\t\tAWS"
 
 ##Print with colors
-echo -e "\e[31mHello World with red color foreground"
+echo -e "\e[31mHello World with red color foreground\e[0m"
 
 echo -e "Hello World with default foregroud"
 
