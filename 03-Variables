@@ -1,21 +1,9 @@
 #!/bin/bash
-## This is for using variables
-Stength=43
-Class=DevOps
-echo "Welcome to $Class training and our Stength is $Stength"
-echo "Welcome to ${Class} training and our Strength is ${Stength}"
 
-## This is to convert local variable to environment variable
-echo "Welcome to $class training"
+## This is forgenral type of variables
+name=Anoop
+course=Devops
+duration=2 months
 
-## Run time variable declaration
-echo "Today date is 20-11-2019"
+echo "Hello $name, Welcome to $course class and the duration of this course is $duration"
 
-## Commnad substitution
-Date=$(date +%F)
-echo "Today's date is $Date"
-
-## Arithmatic substitution
-Result=$(((2+3*15/3-4)-2))
-echo "The result of the expression is $Result"
-#
