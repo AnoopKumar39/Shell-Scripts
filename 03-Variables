@@ -10,6 +10,10 @@ echo "Hello $name, Welcome to $course class and the duration of this course is $
 ## This is for accessing local variable as environment variable
 echo "Hello Anoop, Welcome $class class"
 
+## This is variable substitution
+Time=$(date +%F)
+echo "Today's date is $Time"
 
-
-
+## This is arithmatic substitution
+Sum=$((2+3+4+5))
+echo "The sum of four numbers is $Sum"
