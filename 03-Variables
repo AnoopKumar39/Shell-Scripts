@@ -7,3 +7,9 @@ duration="2 months"
 
 echo "Hello $name, Welcome to $course class and the duration of this course is $duration"
 
+## This is for accessing local variable as environment variable
+echo "Hello Anoop, Welcome $class class"
+
+
+
+
