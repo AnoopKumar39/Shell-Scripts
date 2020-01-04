@@ -5,3 +5,4 @@ read -p 'Enter your course:' course
 echo "Hello $name, Welcome to $course class"
 ############
 
+
