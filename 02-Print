@@ -19,7 +19,7 @@ echo -e "Hello World with default foregroud"
 
 ## Print with colors with background also
 echo -e "\e[42;31mThis is for red on green\e[0m"
-##################
+################
 
 
 
