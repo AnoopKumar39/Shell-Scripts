@@ -30,3 +30,4 @@ echo -e Hello\\nWorld
 ## Even in double quotes sometimes you need to skip the speciality of chaaracters 
 echo  "Cost of apple is \$100"
 ######
+echo  "Cost of apple is \$100"
