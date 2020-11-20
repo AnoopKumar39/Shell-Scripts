@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 ## Script to setup web and app components 
+## Script to setup web and app components 
 LOG=/tmp/stack.log 
 rm -f /tmp/stack.log 
 APPUSER=student
