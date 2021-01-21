@@ -81,7 +81,7 @@ Print "Start HTTPD Web Server\t"
 systemctl enable httpd  &>>$LOG 
 systemctl start httpd   &>>$LOG 
 Stat $?
-
+#######
 
 ### App Server Installation & Configuration 
 Head "APPSERVER SETUP"
