@@ -2,5 +2,5 @@
 ## This is for simple read inputs
 ##read -p 'Enter your name:' name
 ##read -p 'Enter your course:' course
-echo -e "\e[31mHello $name, Welcome to $course class, your password is $pass\e[0m"
+echo -e "\e[31mHello $1, Welcome to $2 class, your password is $3\e[0m"
 ###
